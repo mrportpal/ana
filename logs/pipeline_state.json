@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "created": "2025-07-10T22:10:53.853Z",
+  "last_updated": "2025-07-10T22:17:56.792Z",
+  "stages": {
+    "get_call_ids": {
+      "processed_date_ranges": [],
+      "total_calls_extracted": 0,
+      "last_run": null
+    },
+    "download_audio": {
+      "downloaded_files": {},
+      "failed_downloads": {},
+      "total_downloaded": 0
+    },
+    "transcribe": {
+      "transcribed_files": {},
+      "failed_transcriptions": {},
+      "total_transcribed": 0
+    },
+    "upload_audio": {
+      "uploaded_files": {},
+      "failed_uploads": {},
+      "total_uploaded": 0
+    },
+    "analyze": {
+      "analyzed_calls": {
+        "gvYZdtsjrI": {
+          "status": "completed",
+          "analysis_summary": {
+            "sentiment": "neutral",
+            "success_rating": 3,
+            "call_disposition": ""
+          },
+          "completed_at": "2025-07-10T22:11:12.877Z"
+        },
+        "52ea4d3ff66f76702d9bfd9f4da50c84": {
+          "status": "completed",
+          "analysis_summary": {
+            "sentiment": "neutral",
+            "success_rating": 1,
+            "call_disposition": "Voicemail"
+          },
+          "completed_at": "2025-07-10T22:17:56.792Z"
+        }
+      },
+      "failed_analyses": {},
+      "total_analyzed": 2
+    }
+  },
+  "archived_files": {
+    "call_ids": [],
+    "audio": [],
+    "transcripts": [
+      {
+        "call_id": "gvYZdtsjrI",
+        "original_filename": "502_gvYZdtsjrI.txt",
+        "archive_path": "/home/veetesh/projects/ana/archive/transcripts/2025-07-10/502_gvYZdtsjrI.txt",
+        "archived_at": "2025-07-10T22:11:12.878Z"
+      },
+      {
+        "call_id": "52ea4d3ff66f76702d9bfd9f4da50c84",
+        "original_filename": "712_52ea4d3ff66f76702d9bfd9f4da50c84.txt",
+        "archive_path": "/home/veetesh/projects/ana/archive/transcripts/2025-07-10/712_52ea4d3ff66f76702d9bfd9f4da50c84.txt",
+        "archived_at": "2025-07-10T22:17:56.792Z"
+      }
+    ]
+  }
+}

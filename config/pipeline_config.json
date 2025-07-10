@@ -1,0 +1,54 @@
+{
+  "pipeline": {
+    "name": "Call Center Analytics Pipeline",
+    "version": "1.0.0",
+    "description": "Automated pipeline for processing call center data from Net2Phone to Bubble"
+  },
+  "execution": {
+    "start_date": "2025-07-07",
+    "end_date": "2025-07-08",
+    "batch_size": 20,
+    "retry_attempts": 3,
+    "retry_delay_seconds": 5,
+    "concurrent_workers": 5,
+    "test_limit": 5
+  },
+  "api_config": {
+    "net2phone": {
+      "base_url": "https://integrate.versature.com/api",
+      "token_endpoint": "/oauth/token/",
+      "calls_endpoint": "/cdrs/users/",
+      "page_size": 1000,
+      "min_duration": 15
+    },
+    "assemblyai": {
+      "base_url": "https://api.assemblyai.com/v2",
+      "speech_model": "best",
+      "speaker_labels": true,
+      "language_code": "en_us"
+    },
+    "bubble": {
+      "transcripts_endpoint": "${BUBBLE_TRANSCRIPTS_URL}",
+      "audio_endpoint": "${BUBBLE_AUDIO_URL}",
+      "summary_endpoint": "${BUBBLE_SUMMARY_URL}"
+    },
+    "openai": {
+      "model": "gpt-4-turbo-preview",
+      "max_tokens": 500,
+      "temperature": 0.3
+    }
+  },
+  "directories": {
+    "base_dir": "/home/veetesh/projects/ana",
+    "output_dir": "/home/veetesh/projects/ana/output",
+    "logs_dir": "/home/veetesh/projects/ana/logs",
+    "temp_dir": "/home/veetesh/projects/ana/temp",
+    "env_file": "/home/veetesh/projects/ana/.env"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "json",
+    "rotation": "daily",
+    "retention_days": 30
+  }
+}

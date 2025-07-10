@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+temp/
+*.tmp
+*.temp
+
+# Logs
+logs/*.log
+logs/mortgage_analysis_results_*.json
+logs/processed_analyses.csv
+logs/audio_upload_mapping_*.csv
+
+# Test files and mock data
+test_*.js
+*test_call*.txt
+create_test_transcripts.js
+create_mock_audio.js
+mock_audio_upload.js
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Output files (optional - you may want to track some)
+# output/
+# archive/
+
+# Python installer
+get-pip.py

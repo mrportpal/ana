@@ -1,0 +1,15 @@
+[00:00] Speaker A: Hello, this is John calling from Premier Mortgage. How are you today?
+[00:05] Speaker B: Hi John, I'm doing well. I've been looking into refinancing my home loan.
+[00:12] Speaker A: That's great! I'd love to help you with that. Can you tell me about your current mortgage situation?
+[00:18] Speaker B: Sure, I have a 30-year fixed at 6.5% with about $320,000 remaining. I bought the house three years ago.
+[00:28] Speaker A: Excellent. With current rates, we might be able to get you down to around 5.8%. That could save you significant money monthly.
+[00:38] Speaker B: That sounds promising. What would be the next steps?
+[00:42] Speaker A: I'll need to pull your credit and get some financial documentation. Can we schedule a time to go over the application?
+[00:50] Speaker B: Yes, I'm interested. When would work best?
+[00:54] Speaker A: How about tomorrow at 2 PM? I can walk you through everything and get the process started.
+[01:00] Speaker B: Perfect, that works for me. What information should I have ready?
+[01:05] Speaker A: Great! Please have your recent pay stubs, tax returns, and current mortgage statement ready. I'll send you a checklist via email.
+[01:15] Speaker B: Sounds good. I'm looking forward to potentially saving some money on my mortgage.
+[01:20] Speaker A: Absolutely! I'm confident we can find you a better rate. I'll send that email right after our call.
+[01:26] Speaker B: Thank you so much, John. I'll talk to you tomorrow at 2 PM.
+[01:30] Speaker A: You're welcome! Have a great day and I'll speak with you tomorrow.

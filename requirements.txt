@@ -1,0 +1,16 @@
+# Python dependencies for Call Center Analytics Pipeline
+
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Data processing
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# AI/ML APIs
+assemblyai>=0.20.0
+
+# Utilities
+pathlib2>=2.3.7
